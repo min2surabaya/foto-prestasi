@@ -1,0 +1,210 @@
+<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">   
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<link rel="stylesheet" href="http://cdn.datatables.net/1.10.2/css/jquery.dataTables.min.css">
+<script type="text/javascript" src="http://cdn.datatables.net/1.10.2/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+<style type="text/css">
+
+/* CSS3 untuk pewarnaan baris selang-seling */
+table tr:nth-of-type(odd) {
+  background: #E0E0E0;
+}
+
+/* Penomoran otomatis pada baris */
+.css-serial {
+  counter-reset: serial-number;  /* Atur penomoran ke 0 */
+}
+.css-serial td:first-child:before {
+  counter-increment: serial-number;  /* Kenaikan penomoran */
+  content: counter(serial-number);  /* Tampilan counter */
+}
+  
+</style>
+
+<div class="table w100">
+<table id="myTable" class="css-serial">
+        <thead>
+            <tr>
+        <th>No</th>
+        <th>Nama</th>
+        <th>NISN</th>
+        <th>Prestasi</th>
+        <th>Tingkat</th>
+        <th>Tahun</th>
+        <th>Aksi</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      
+    <!-- <tr>
+    <td>  </td>
+    <td>  </td>
+    <td>  </td>
+    <td>  </td>
+    <td> Tingkat  </td>
+	<td>  </td>
+    <td> <a href="#" onclick="window.open(this.href,&quot;popupwindow&quot;,&quot;status=0, height=700, width=500, scrollbars=yes, resizable=0, top=0, left=0&quot;); return false;" target="_blank">Foto</a></td>
+  </tr> -->
+      
+
+<!-- ---------------------------------------------------------Tahun 2026--------------------------------------------------------- -->
+
+      
+      <tr>
+        <td> </td>
+        <td>KHAYLA MARISSA YASMIN</td>
+        <td>0135642287</td>
+        <td>Juara II Kata Perorangan SD Kelas 5 - 6 Putri</td>
+        <td>Tingkat Provinsi</td>
+        <td>2026</td>
+        <td>
+          <a
+            href="https://drive.google.com/file/d/1oXkH43gJiup6ZxTokXoJSYkMDyusGYX-/view"
+            onclick='window.open(this.href,"popupwindow","status=0, height=700, width=500, scrollbars=yes, resizable=0, top=0, left=0"); return false;'
+            target="_blank"
+            >Foto</a
+          >
+        </td>
+      </tr>     
+      
+<!-- ---------------------------------------------------------Tahun 2025--------------------------------------------------------- -->
+
+
+      <tr>
+        <td> </td>
+        <td>MOHAMMAD DAFFI RIZKY APRILIO</td>
+        <td>0154225986</td>
+        <td>Juara Harapan II Olimpiade Brilliant IPS Kelas 4</td>
+        <td>Tingkat Kota</td>
+        <td>2025</td>
+        <td>
+          <a
+            href="https://drive.google.com/file/d/1hjFFv0aVjNdW6zpGF0Hze0zieKUQfQm6/view"
+            onclick='window.open(this.href,"popupwindow","status=0, height=700, width=500, scrollbars=yes, resizable=0, top=0, left=0"); return false;'
+            target="_blank"
+            >Foto</a
+          >
+        </td>
+      </tr>
+
+      <tr>
+        <td> </td>
+        <td>NAUFAL ROIS MURTADHO</td>
+        <td>3132404311</td>
+        <td>
+          Juara 1 Tim Persebaya U-12 Turnamen Annyversary SSB Elfaza Surabaya
+        </td>
+        <td>Tingkat Kota</td>
+        <td>2025</td>
+        <td>
+          <a
+            href="https://drive.google.com/file/d/1wFMBPj7AEyJEQZkEVv2ZMsnlNgZEXiul/view"
+            onclick='window.open(this.href,"popupwindow","status=0, height=700, width=500, scrollbars=yes, resizable=0, top=0, left=0"); return false;'
+            target="_blank"
+            >Foto</a
+          >
+        </td>
+      </tr>
+      
+        
+<!-- ---------------------------------------------------------Tahun 2024--------------------------------------------------------- -->
+      
+      
+      <tr>
+        <td> </td>
+        <td>SYAFIRA AINUR RAFANDA</td>
+        <td>3166985197</td>
+        <td>Juara 1 Lomba Panahan, Gladen Antar Sekolah</td>
+        <td>Tingkat Kota</td>
+        <td>2024</td>
+        <td>
+          <a
+            href="https://drive.google.com/file/d/1o8qJP7UNMxeeHWiW4a8rH3U_TeCWiwtN/view"
+            onclick='window.open(this.href,"popupwindow","status=0, height=700, width=500, scrollbars=yes, resizable=0, top=0, left=0"); return false;'
+            target="_blank"
+            >Foto</a
+          >
+        </td>
+      </tr>
+
+      <tr>
+        <td> </td>
+        <td>MUHAMMAD RASYDHAN DARMAJATI</td>
+        <td>0129648615</td>
+        <td>Juara 3 Pertandingan Bulu Tangkis Sirkuit Kota Surabaya</td>
+        <td>Tingkat Kota</td>
+        <td>2024</td>
+        <td>
+          <a
+            href="https://drive.google.com/file/d/1GJnwONVXCsPEXprlOe4wT1taWrChntuB/view"
+            onclick='window.open(this.href,"popupwindow","status=0, height=700, width=500, scrollbars=yes, resizable=0, top=0, left=0"); return false;'
+            target="_blank"
+            >Foto</a
+          >
+        </td>
+      </tr>
+      
+      <tr>
+    <td>  </td>
+    <td> ARROYA ZAARA ZINDA</td>
+    <td> 3146655141</td>
+    <td>  Juara 1 Tanding Kelas S-Putri Usia Dini (<b>kejuaraan pencak silat IPSI Malang champioship 4</b>)</td>
+    <td> Tingkat Provinsi</td>
+	<td> 2024</td>
+    <td> <a href="https://drive.google.com/file/d/1Fc85dwQIC7T7uDzN9BJri_GQrxCUN0Kt/view" onclick="window.open(this.href,&quot;popupwindow&quot;,&quot;status=0, height=700, width=500, scrollbars=yes, resizable=0, top=0, left=0&quot;); return false;" target="_blank">Foto</a></td>
+  </tr>
+      
+     <tr>
+    <td>  </td>
+    <td> ANUGRAH ANGGA DWI PUTRA</td>
+    <td> 3124234741</td>
+    <td>  Juara 3 Tanding Kelas L-Putra Usia Dini (<b>kejuaraan pencak silat IPSI Malang champioship 4</b>)</td>
+    <td> Tingkat Provinsi</td>
+	<td> 2024</td>
+    <td> <a href="https://drive.google.com/file/d/1cbcO0epryvlm2PoIL1ggnfSn0Szz6O7W/view" onclick="window.open(this.href,&quot;popupwindow&quot;,&quot;status=0, height=700, width=500, scrollbars=yes, resizable=0, top=0, left=0&quot;); return false;" target="_blank">Foto</a></td>
+  </tr>
+      
+      <tr>
+    <td>  </td>
+    <td> DAMIA AULIA AZZAHRA</td>
+    <td> 0132160083</td>
+    <td>   Juara 2 Tanding Kelas B-Putri Usia Dini (<b>kejuaraan pencak silat IPSI Malang champioship 4</b>)</td>
+    <td> Tingkat Provinsi</td>
+	<td> 2024</td>
+    <td> <a href="https://drive.google.com/file/d/1bnbJa9yPSP-4X5HpUYBBvhhUCAJiOkf-/view" onclick="window.open(this.href,&quot;popupwindow&quot;,&quot;status=0, height=700, width=500, scrollbars=yes, resizable=0, top=0, left=0&quot;); return false;" target="_blank">Foto</a></td>
+  </tr>
+      
+      <tr>
+    <td>  </td>
+    <td> ACHMAD FAISAL ALGHAZALI</td>
+    <td> 3134593180</td>
+    <td>   Juara 1 Tanding Kelas B-Putra Usia Dini (<b>kejuaraan pencak silat IPSI Malang champioship 4</b>)</td>
+    <td> Tingkat Provinsi</td>
+	<td> 2024</td>
+    <td> <a href="https://drive.google.com/file/d/1iEwND_sTE0OkaQtE6w8G10cw97eYsgAv/view" onclick="window.open(this.href,&quot;popupwindow&quot;,&quot;status=0, height=700, width=500, scrollbars=yes, resizable=0, top=0, left=0&quot;); return false;" target="_blank">Foto</a></td>
+  </tr>
+      
+     <tr>
+    <td>  </td>
+    <td> NAFISHA AZALEA QUBAILA</td>
+    <td> 0144362999</td>
+    <td>   Juara 3 Tanding Kelas K-Putri Usia Dini  (<b>kejuaraan pencak silat IPSI Malang champioship 4</b>)</td>
+    <td> Tingkat Provinsi</td>
+	<td> 2024</td>
+    <td> <a href="https://drive.google.com/file/d/1e_Cq8TOIAWBn2y1oLOtVW-Po_P6Ndm3O/view" onclick="window.open(this.href,&quot;popupwindow&quot;,&quot;status=0, height=700, width=500, scrollbars=yes, resizable=0, top=0, left=0&quot;); return false;" target="_blank">Foto</a></td>
+  </tr>   
+ 
+        </tbody>
+    </table>
+</div>
+
+<script>
+$(document).ready(function(){
+    $('#myTable').dataTable();
+});
+</script>
+
+<!-- Batas Akhir -->
+<p><br/></p>
